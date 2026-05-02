@@ -1,0 +1,13 @@
+targets:
+  - "scanme.nmap.org"
+  - "localhost"
+
+ports:
+  - 22
+  - 80
+  - 443
+  - 3306
+
+timeout: 2s
+concurrency: 50
+monitor_interval: 60s
